@@ -1,0 +1,31 @@
+/* Our CSS file. */
+
+img{
+    border-radius: 10px;
+}
+#first-container{
+    display: flex;
+    padding: auto;
+    margin: 10vh;
+}
+#head{
+    margin-left:5% ;
+}
+#search,#website{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10vh;
+    padding: 21px;
+
+}
+#table{
+    border-radius: 10px;
+    background-color: pink;
+    margin: auto;
+    margin-top: 60px;
+}
+
+td{
+    font-size: 5vh;
+    padding: 5px;
+}

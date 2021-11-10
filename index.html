@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<script src="bundle.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="main-container">
+		<div id="first-container">
+			<div>
+				<img src="./img1.jpg" alt="image" width="100px" height="100px">
+			</div>
+			<div id="head">
+				<hr>
+				<h1>Assignment-3</h1>
+				<hr>
+			</div>
+		</div>
+		<table id="table">
+			<tr>
+				<td id="search">Search-Engine</td>
+				<td id="website">Website</td>
+			</tr>
+			<tr>
+				<td>Google</td>
+				<td>GeeksforGeeks</td>
+			</tr>
+			<tr>
+				<td>Bing</td>
+				<td>GitHub</td>
+			</tr>
+			<tr>
+				<td>Yahoo</td>
+				<td>leetcode</td>
+			</tr>
+
+		</table>
+	</div>
+
+</body>
+<script>
+	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+	// Get HTML head element
+	var head = document.getElementsByTagName('HEAD')[0];
+	// Create new link Element
+	var link = document.createElement('link');
+	// set the attributes for link element 
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
+	link.href = './screen.css?v=' + new Date().getTime();
+	// Append link element to HTML head
+	head.appendChild(link);
+	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+</script>
+</html>
